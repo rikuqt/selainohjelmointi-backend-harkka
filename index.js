@@ -7,14 +7,14 @@ app.use(express.static('dist'))
 
 let tyot = [
   { id: '1',
-    name: 'Selainohjelmointi harjoitustyö',
-    description: 'Pohjat valmiina, deleten lisäys, render servuun backend',
-    dueDate: '2024-10-15'
+    nimi: 'Selainohjelmointi harjoitustyö',
+    tyonkuvaus: 'Pohjat valmiina, deleten lisäys, render servuun backend',
+    paivanmaara: '2024-10-15'
   },
   { id: '2',
-    name: 'käyttöliittymät harjoitustyö',
-    description: 'hienosäätö',
-    dueDate: '2024-10-25'
+    nimi: 'käyttöliittymät harjoitustyö',
+    tyonkuvaus: 'hienosäätö',
+    paivanmaara: '2024-10-25'
   }
 ]
 
