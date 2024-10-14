@@ -1,0 +1,8 @@
+POST https://selainohjelmointi-backend-harkka.onrender.com/api/tyot
+Content-Type: application/json
+
+{
+    "nimi": "testi123",
+    "tyonkuvaus": "321testi",
+    "paivanmaara": "2011-11-11"
+}
